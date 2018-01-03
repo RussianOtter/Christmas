@@ -41,7 +41,7 @@ for _ in logo:
 		sys.stdout.write(_)
 		time.sleep(rate)
 
-def randcolor():
+def randcolor(): 
 	while 1:
 		r,g,b = random.randint(0,1), random.randint(0,1), random.randint(0,1)
 		if [r,g,b] != [1,1,1] and [r,g,b] != [0,0,0] and [r,g,b] != [0,0,1]:
